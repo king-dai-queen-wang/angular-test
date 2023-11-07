@@ -14,7 +14,5 @@ export class AppComponent {
   alertMsg() {
     alert('弹出消息:' + this.title)
   }
-  getTemplateStr() {
-    return `这是字符串模板${this.title}`
-  }
+
 }
