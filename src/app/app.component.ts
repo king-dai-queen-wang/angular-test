@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'myAngularTest';
+  title = '我的angular项目';
+  constructor() {
+
+  }
+
+  alertMsg() {
+    alert('弹出消息:' + this.title)
+  }
+  getTemplateStr() {
+    return `这是字符串模板${this.title}`
+  }
 }
